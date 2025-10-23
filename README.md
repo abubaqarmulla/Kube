@@ -1,4 +1,6 @@
 # Kube
+minikube start 
+
 kubectl create deployment fun --image=nginx:latest
 
 kubectl expose deployment fun --port=80
